@@ -44,11 +44,19 @@ A seguir está uma configuração genérica de local host na porta 3000:
    
 - Adicionar planeta - POST: http://localhost:3000/b2w/planetas/adicionar 
   
-  . Adiciona um planeto ao banco de dados, sendo necessário inserir o nome, clima e terreno. O id é gerado automaticamente, e o número de aparições também é gerado consumindo os dados da API Swapi.
+  . Adiciona um planeta ao banco de dados, sendo necessário inserir o nome, clima e terreno. O Id é gerado automaticamente, e o número de aparições também é gerado consumindo os dados da API Swapi. Caso o planeta não esteja contido no universo Star Wars, ele será cadastrado como tendo 0 aparições.
   
 - Buscar planeta por Id - GET: http://localhost:3000/b2w/planetas/id/{inserir-id-aqui}
+
+  . Utiliza o Id gerado automaticamente quando o planeta é adicionado ao banco de dados. Retorna o arquivo no formato JSON com sucesso caso exista. Para essa busca é necessário inserir o Id após /id/.
+  
 - Buscar planeta por Nome - GET: http://localhost:3000/b2w/planetas/nome/{inserir-nome-aqui}
+
+   . Utiliza o nome do planeta cadastrado, segue a mesma metodologia da busca pelo Id. Para essa busca é necessário inserir o Nome após /nome/.
+   
 - Deletar um planeta por Id - DELETE: http://localhost:3000/b2w/planetas/id/deletar/{inserir-id-aqui}
+
+   . Remove o planeta utilizando o Id que foi gerado automaticamente, utilizando o método DELETE. 
 
 # TESTES
 
