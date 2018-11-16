@@ -6,18 +6,19 @@ var planetaSchema = mongoose.Schema({
 
     nome: {
         type: String,
-        required: true,
+        required: true
     },
     clima: {
         type: String,
         required: true
     },
     terreno: {
-        String,
+        type: String,
+        required: true
     },
     quantidade_de_aparicoes: {
         type: String,
-        default: 0,
+        default: 0
     }
     
 });
