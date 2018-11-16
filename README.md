@@ -6,21 +6,21 @@ Foi feito totalmente em Node.
 
 # TECNOLOGIAS UTILIZADAS
 
-. Node.js 10.13.0
+- Node.js 10.13.0
 
-. Postman v6.5.2
+- Postman v6.5.2
 
-. MongoDB 4.0.4
+- MongoDB 4.0.4
 
 # DEPENDÊNCIAS
 
-. Express 4.16.4
+- Express 4.16.4
 
-. Mongoose 5.3.12
+- Mongoose 5.3.12
 
-. Body-Parser 1.18.3
+- Body-Parser 1.18.3
 
-. Nodemon (não é pré-requisito)
+- Nodemon (não é pré-requisito)
 
 
 # GUIA 
@@ -34,4 +34,8 @@ Foi feito totalmente em Node.
 
 A seguir está uma configuração genérica de local host na porta 3000:
 
-- Listagem de planetas GET: http://localhost:3000/b2w/planetas/
+- Listagem de planetas - GET: http://localhost:3000/b2w/planetas/
+- Adicionar planeta - POST: http://localhost:3000/b2w/planetas/adicionar (necessita de nome, clima e terreno, o número de aparições é automaticamente preenchido ao consumir a api swapi)
+- Buscar planeta por Id - GET: http://localhost:3000/b2w/planetas/id/{inserir-id-aqui}
+- Buscar planeta por Nome - GET: http://localhost:3000/b2w/planetas/nome/{inserir-nome-aqui}
+- Deletar um planeta por Id - DELETE: http://localhost:3000/b2w/planetas/id/deletar/{inserir-id-aqui}
