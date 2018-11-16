@@ -6,7 +6,7 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 
 Foi feito totalmente em Node usando a arquitetura REST, e consome a API Swapi, o qual neste caso devolve o número de aparições em filmes de cada planeta existente no universo Star Wars, caso o planeta não exista neste universo retorna zero aparições
 
-# TECNOLOGIAS UTILIZADAS
+# Tecnologias Utilizadas
 
 - Node.js 10.13.0
 
@@ -14,7 +14,7 @@ Foi feito totalmente em Node usando a arquitetura REST, e consome a API Swapi, o
 
 - MongoDB 4.0.4
 
-# DEPENDÊNCIAS
+# Dependências
 
 - Express 4.16.4
 
@@ -25,14 +25,14 @@ Foi feito totalmente em Node usando a arquitetura REST, e consome a API Swapi, o
 - Nodemon (não é pré-requisito)
 
 
-# GUIA 
+# Guia 
 
 1. É necessário clonar o repositório com o comando git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git
 2. Entrar no diretório do clone com cd b2wdigital-testebackend-bruno (para windows)
 3. Instalar todas as dependências utilizando npm install dependencies, e recomendo instalar o nodemon, utilizando npm install nodemon
 4. Após isso rodar a aplicação utilizando nodemon src/index.js
 
-# ARQUITETURA REST 
+# Arquitetura REST
 
 A seguir está uma configuração genérica de local host na porta 3000:
 
