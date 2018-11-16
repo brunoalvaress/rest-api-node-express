@@ -29,3 +29,9 @@ Foi feito totalmente em Node.
 2. Entrar no diretório do clone com cd b2wdigital-testebackend-bruno (para windows)
 3. Instalar todas as dependências utilizando npm install dependencies, e recomendo instalar o nodemon, utilizando npm install nodemon
 4. Após isso rodar a aplicação utilizando nodemon src/index.js
+
+# ARQUITETURA REST 
+
+A seguir está uma configuração genérica de local host na porta 3000:
+
+- Listagem de planetas GET: http://localhost:3000/b2w/planetas/
