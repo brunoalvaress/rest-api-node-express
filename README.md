@@ -30,10 +30,11 @@ Foi feito totalmente em Node usando a arquitetura REST, e consome a API Swapi, o
 
 # Guia 
 
-1. É necessário clonar o repositório com o comando git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git
-2. Entrar no diretório do clone com cd b2wdigital-testebackend-bruno (para windows)
+1. É necessário clonar o repositório com o comando $git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git 
+
+2. Entrar no diretório do clone com $cd b2wdigital-testebackend-bruno (para windows)
 3. Instalar todas as dependências utilizando npm install dependencies, e recomendo instalar o nodemon, utilizando npm install nodemon
-4. Após isso rodar a aplicação utilizando nodemon src/index.js
+4. Após isso rodar a aplicação utilizando $nodemon src/index.js
 
 # Arquitetura REST
 
