@@ -12,7 +12,7 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 
 - Node.js 10.13.0
 
-- Postman v6.5.2
+- Postman 6.5.2
 
 - MongoDB 4.0.4
 
