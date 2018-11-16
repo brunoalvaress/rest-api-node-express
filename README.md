@@ -46,4 +46,3 @@ A seguir está uma configuração genérica de local host na porta 3000:
 
 Os testes foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade.
 
-![alt text](https://ibb.co/hhRhUf)
