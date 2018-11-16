@@ -39,6 +39,9 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 A seguir está uma configuração genérica de local host na porta 3000:
 
 - Listagem de planetas - GET: http://localhost:3000/b2w/planetas/
+
+   . Em caso de sucesso retorna todos os planetas já cadastrados no banco de dados, cada planeta no formato JSON, contendo clima, terreno e número de aparições(estes consumidos da api Swapi)
+   
 - Adicionar planeta - POST: http://localhost:3000/b2w/planetas/adicionar (necessita de nome, clima e terreno, o número de aparições é automaticamente preenchido ao consumir a api swapi)
 - Buscar planeta por Id - GET: http://localhost:3000/b2w/planetas/id/{inserir-id-aqui}
 - Buscar planeta por Nome - GET: http://localhost:3000/b2w/planetas/nome/{inserir-nome-aqui}
