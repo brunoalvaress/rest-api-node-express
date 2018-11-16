@@ -1,4 +1,4 @@
-# Teste backend BW2 Digital - Star Wars API
+# Desafio backend BW2 Digital - Star Wars API
 
 Aplicação desenvolvida para a B2W Digital, baseada no universo de Star Wars.
 
