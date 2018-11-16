@@ -1,8 +1,10 @@
 # Teste backend BW2 Digital - Star Wars API
 
 Aplicação desenvolvida para a B2W Digital, baseada no universo de Star Wars.
+
 Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar planetas, listar planetas, buscar por nome e Id, remover planeta.
-Foi feito totalmente em Node.
+
+Foi feito totalmente em Node usando a arquitetura REST, e consome a API Swapi, o qual neste caso devolve o número de aparições em filmes de cada planeta existente no universo Star Wars, caso o planeta não exista neste universo retorna zero aparições
 
 # TECNOLOGIAS UTILIZADAS
 
