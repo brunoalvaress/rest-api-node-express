@@ -58,8 +58,12 @@ A seguir está uma configuração genérica de local host na porta 3000:
 
    . Remove o planeta utilizando o Id que foi gerado automaticamente, utilizando o método DELETE. 
 
-# TESTES
+# Testes
 
 Foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade. Os testes que foram feitos nesse caso podem ser vistos na figura abaixo, logo na aba a esquerda. O Postman é uma ferramenta extremamente útil para se testar manualmente ou automatizar os testes de qualquer API REST.
 
 ![testes](https://user-images.githubusercontent.com/43390621/48627815-b2e01500-e99c-11e8-8a28-819e35f1aad9.jpg)
+
+# Créditos
+
+Essa API foi desenvolvida e documentada por Bruno Alvares de Miranda, no dia 15/11/2018.
