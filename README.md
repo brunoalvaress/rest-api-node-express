@@ -46,6 +46,6 @@ A seguir está uma configuração genérica de local host na porta 3000:
 
 # TESTES
 
-Foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade. É uma ferramenta de fácil acesso e poderá ajudar muito nos testes de CRUD.
+Foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade. É uma ferramente extremamente útil para se testar manualmente ou automatizar os testes de qualquer API REST.
 
 ![testes](https://user-images.githubusercontent.com/43390621/48627815-b2e01500-e99c-11e8-8a28-819e35f1aad9.jpg)
