@@ -1,3 +1,6 @@
+![1200px-star_wars2 svg](https://user-images.githubusercontent.com/43390621/48627866-d905b500-e99c-11e8-969c-515fd8bdcc41.png)
+
+
 # Desafio backend BW2 Digital - Star Wars API
 
 Aplicação desenvolvida para a B2W Digital, baseada no universo de Star Wars.
