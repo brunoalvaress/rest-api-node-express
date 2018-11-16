@@ -41,3 +41,9 @@ A seguir está uma configuração genérica de local host na porta 3000:
 - Buscar planeta por Id - GET: http://localhost:3000/b2w/planetas/id/{inserir-id-aqui}
 - Buscar planeta por Nome - GET: http://localhost:3000/b2w/planetas/nome/{inserir-nome-aqui}
 - Deletar um planeta por Id - DELETE: http://localhost:3000/b2w/planetas/id/deletar/{inserir-id-aqui}
+
+# TESTES
+
+Os testes foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade.
+
+![alt text](https://ibb.co/hhRhUf)
