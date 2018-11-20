@@ -8,7 +8,7 @@ Aplicação desenvolvida para teste da B2W Digital, baseada no universo de Star 
 Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar planetas, listar planetas, buscar por nome e Id, remover planeta. Foi feito em Node usando a arquitetura REST, consome a API Swapi, o qual neste caso consultou-se apenas o número de aparições em filmes de cada planeta existente no universo Star Wars, caso o planeta não exista neste universo será cadastrado com zero aparições
 
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Node.js 10.13.0
 
@@ -16,7 +16,7 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 
 - MongoDB 4.0.4
 
-# Dependências
+## Dependências
 
 - Express 4.16.4
 
@@ -27,7 +27,7 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 - Nodemon (não é pré-requisito, mas facilita o uso)
 
 
-# Guia 
+## Guia 
 
 1. É necessário clonar o repositório com o comando `git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git` 
 2. Entrar no diretório do projeto com `cd b2wdigital-testebackend-bruno (para windows)`
@@ -35,7 +35,7 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 4. Recomendo instalar o nodemon, utilizando `npm install nodemon`
 5. Após isso rodar a aplicação utilizando `nodemon src/index.js`
 
-# Arquitetura REST
+## Arquitetura REST
 
 A seguir está uma configuração genérica de local host na porta 3000:
 
@@ -59,12 +59,12 @@ A seguir está uma configuração genérica de local host na porta 3000:
 
    . Remove o planeta utilizando o Id que foi gerado automaticamente, utilizando o método DELETE. 
 
-# Testes
+## Testes
 
 Foram totalmente realizados no ambiente automatizado do Postman, onde foi criado uma collection com 5 testes, comprovando o sucesso de cada funcionalidade. Os testes que foram feitos nesse caso podem ser vistos na figura abaixo, logo na aba a esquerda. O Postman é uma ferramenta extremamente útil para se testar manualmente ou automatizar os testes de qualquer API REST.
 
 ![testes](https://user-images.githubusercontent.com/43390621/48627815-b2e01500-e99c-11e8-8a28-819e35f1aad9.jpg)
 
-# Créditos
+## Créditos
 
 Essa API foi desenvolvida e documentada por Bruno Alvares de Miranda, no dia 15/11/2018.
