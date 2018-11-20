@@ -31,8 +31,9 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 
 1. É necessário clonar o repositório com o comando `git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git` 
 2. Entrar no diretório do projeto com `cd b2wdigital-testebackend-bruno (para windows)`
-3. Instalar todas as dependências utilizando: npm install dependencies, recomendo instalar o nodemon, utilizando `npm install nodemon`
-4. Após isso rodar a aplicação utilizando `nodemon src/index.js`
+3. Instalar todas as dependências utilizando `npm install dependencies`
+4. Recomendo instalar o nodemon, utilizando `npm install nodemon`
+5. Após isso rodar a aplicação utilizando `nodemon src/index.js`
 
 # Arquitetura REST
 
