@@ -1,9 +1,9 @@
 ![1200px-star_wars2 svg](https://user-images.githubusercontent.com/43390621/48627866-d905b500-e99c-11e8-969c-515fd8bdcc41.png)
 
 
-# Desafio backend BW2 Digital - Star Wars API
+# REST API em Node.js e Express.js - Cadastro e manipulação de planetas Star Wars em API SWAPI
 
-Aplicação desenvolvida para teste da B2W Digital, baseada no universo de Star Wars.
+
 
 Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar planetas, listar planetas, buscar por nome e Id, remover planeta. Foi feito em Node usando a arquitetura REST, consome a API Swapi, o qual neste caso consultou-se apenas o número de aparições em filmes de cada planeta existente no universo Star Wars, caso o planeta não exista neste universo será cadastrado com zero aparições
 
